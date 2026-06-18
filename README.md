@@ -1,18 +1,18 @@
 <div align="center">
 
-<img src="./header.svg" width="100%" alt="Joshua Philip"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0a2a5e,80:2774AE,100:FFD100&height=220&section=header&text=Joshua%20Philip&fontSize=72&fontColor=ffffff&fontAlignY=42&fontStyle=bold&desc=UCLA%20CS%20%26%20Engineering%20%7C%20AI%20Founder%20%7C%20Footballer&descAlignY=62&descSize=18&descColor=FFD100&animation=fadeIn" width="100%"/>
 
-<img src="./typing.svg" width="700" alt="typing animation"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1400&color=FFD100&center=true&vCenter=true&width=680&lines=Building+AI+that+actually+ships;CS+and+Engineering+at+UCLA;On+the+pitch+and+in+the+stack;Automating+the+grind%2C+one+agent+at+a+time;Turning+chaos+into+products" width="680" alt="typing"/>
 
 <br/>
 
-<a href="https://www.linkedin.com/in/joshua-philip123/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/joshua-philip123/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 &nbsp;
-<a href="mailto:joshuaphilip2140@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white"/></a>
+<a href="mailto:joshuaphilip2140@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 &nbsp;
-<img src="https://img.shields.io/badge/UCLA-2774AE?style=for-the-badge&amp;logoColor=white"/>
+<img src="https://img.shields.io/badge/UCLA-2774AE?style=for-the-badge&logoColor=white"/>
 &nbsp;
-<img src="https://komarev.com/ghpvc/?username=JoshuaA1292&amp;label=views&amp;color=2774AE&amp;style=for-the-badge"/>
+<img src="https://komarev.com/ghpvc/?username=JoshuaA1292&label=views&color=2774AE&style=for-the-badge"/>
 
 </div>
 
@@ -40,9 +40,7 @@ const joshua = {
 ---
 
 <div align="center">
-
-<img src="./soccer.svg" width="100%" alt="soccer ball rolling"/>
-
+<img src="https://raw.githubusercontent.com/JoshuaA1292/JoshuaA1292/main/soccer.svg" width="100%" alt="soccer ball rolling"/>
 </div>
 
 ---
@@ -88,5 +86,5 @@ const joshua = {
 ---
 
 <div align="center">
-  <sub>joshuaphilip2140@gmail.com &nbsp; · &nbsp; <a href="https://www.linkedin.com/in/joshua-philip123/">linkedin</a></sub>
+  <sub>joshuaphilip2140@gmail.com &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/joshua-philip123/">linkedin</a></sub>
 </div>
