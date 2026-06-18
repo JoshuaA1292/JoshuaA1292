@@ -49,9 +49,7 @@ const joshua = {
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/JoshuaA1292/JoshuaA1292/main/soccer.svg" width="100%" alt="soccer ball rolling"/>
-
-*The pitch and the codebase aren't that different — both punish hesitation.*
+<img src="./soccer.svg" width="100%" alt="soccer ball rolling"/>
 
 </div>
 
