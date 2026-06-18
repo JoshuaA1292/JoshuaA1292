@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0d1117"/>
+      <stop offset="55%"  stop-color="#0a2a5e"/>
+      <stop offset="100%" stop-color="#2774AE"/>
+    </linearGradient>
+    <radialGradient id="bloom1" cx="80%" cy="25%" r="40%">
+      <stop offset="0%"   stop-color="#FFD100" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#FFD100" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bloom2" cx="15%" cy="75%" r="35%">
+      <stop offset="0%"   stop-color="#2774AE" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#2774AE" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background layers -->
+  <rect width="900" height="200" fill="url(#bg)"/>
+  <rect width="900" height="200" fill="url(#bloom1)"/>
+  <rect width="900" height="200" fill="url(#bloom2)"/>
+
+  <!-- Twinkling stars -->
+  <circle cx="55"  cy="28"  r="1.8" fill="#FFD100" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.1;0.7" dur="3.1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="810" cy="18"  r="1.4" fill="#FFD100" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="2.4s" repeatCount="indefinite" begin="0.6s"/>
+  </circle>
+  <circle cx="160" cy="160" r="1.2" fill="white"   opacity="0.35">
+    <animate attributeName="opacity" values="0.35;0.7;0.35" dur="4.0s" repeatCount="indefinite" begin="1.0s"/>
+  </circle>
+  <circle cx="720" cy="148" r="1.8" fill="white"   opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.65;0.3" dur="2.7s" repeatCount="indefinite" begin="0.3s"/>
+  </circle>
+  <circle cx="450" cy="22"  r="1.0" fill="#FFD100" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.15;0.6" dur="3.6s" repeatCount="indefinite" begin="0.9s"/>
+  </circle>
+  <circle cx="860" cy="105" r="1.4" fill="white"   opacity="0.4">
+    <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.9s" repeatCount="indefinite" begin="1.3s"/>
+  </circle>
+  <circle cx="300" cy="170" r="1.0" fill="#FFD100" opacity="0.45">
+    <animate attributeName="opacity" values="0.45;0.1;0.45" dur="4.3s" repeatCount="indefinite" begin="0.2s"/>
+  </circle>
+  <circle cx="640" cy="40"  r="1.2" fill="white"   opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3.8s" repeatCount="indefinite" begin="1.6s"/>
+  </circle>
+  <circle cx="110" cy="80"  r="1.0" fill="#FFD100" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;0.1;0.5" dur="2.2s" repeatCount="indefinite" begin="0.7s"/>
+  </circle>
+  <circle cx="775" cy="175" r="1.4" fill="white"   opacity="0.25">
+    <animate attributeName="opacity" values="0.25;0.55;0.25" dur="3.4s" repeatCount="indefinite" begin="1.1s"/>
+  </circle>
+
+  <!-- Name: fades in -->
+  <text x="450" y="92"
+        text-anchor="middle"
+        font-family="Arial Black, Arial, sans-serif"
+        font-size="58"
+        font-weight="900"
+        fill="white"
+        opacity="0">
+    Joshua Philip
+    <animate attributeName="opacity" from="0" to="1" dur="1.0s" begin="0.2s" fill="freeze"/>
+  </text>
+
+  <!-- Gold underline grows out from center -->
+  <rect x="450" y="103" width="0" height="2.5" fill="#FFD100" opacity="0">
+    <animate attributeName="x"       from="450" to="270" dur="0.7s" begin="1.0s" fill="freeze"/>
+    <animate attributeName="width"   from="0"   to="360" dur="0.7s" begin="1.0s" fill="freeze"/>
+    <animate attributeName="opacity" from="0"   to="0.9" dur="0.7s" begin="1.0s" fill="freeze"/>
+  </rect>
+
+  <!-- Subtitle: fades in after underline -->
+  <text x="450" y="132"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="14"
+        letter-spacing="2"
+        fill="#FFD100"
+        opacity="0">
+    UCLA CS &amp; Engineering  |  AI Founder  |  Footballer
+    <animate attributeName="opacity" from="0" to="0.9" dur="1.0s" begin="0.9s" fill="freeze"/>
+  </text>
+
+  <!-- Wave bottom -->
+  <path d="M0,168 C80,155 180,178 280,165 C380,152 480,175 580,163 C680,151 780,172 900,160 L900,200 L0,200 Z"
+        fill="#0d1117" opacity="0.85"/>
+  <path d="M0,178 C120,165 220,185 340,174 C460,163 560,182 680,171 C780,162 850,178 900,172 L900,200 L0,200 Z"
+        fill="#0d1117" opacity="0.6"/>
+</svg>

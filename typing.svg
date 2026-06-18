@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 46" width="700" height="46">
+  <rect width="700" height="46" fill="#0d1117"/>
+
+  <!-- Blinking cursor -->
+  <rect x="352" y="12" width="2" height="22" fill="#FFD100" opacity="1">
+    <animate attributeName="opacity" values="1;1;0;0;1;1;0;0;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Line 1: 0-5s -->
+  <text x="348" y="30"
+        text-anchor="end"
+        font-family="'Courier New', Courier, monospace"
+        font-size="17"
+        font-weight="600"
+        fill="#FFD100"
+        opacity="0">
+    Building AI that actually ships
+    <animate attributeName="opacity"
+      values="0;1;1;0;0"
+      keyTimes="0;0.02;0.18;0.20;1"
+      dur="25s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Line 2: 5-10s -->
+  <text x="348" y="30"
+        text-anchor="end"
+        font-family="'Courier New', Courier, monospace"
+        font-size="17"
+        font-weight="600"
+        fill="#FFD100"
+        opacity="0">
+    CS &amp; Engineering @ UCLA
+    <animate attributeName="opacity"
+      values="0;0;1;1;0;0"
+      keyTimes="0;0.20;0.22;0.38;0.40;1"
+      dur="25s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Line 3: 10-15s -->
+  <text x="348" y="30"
+        text-anchor="end"
+        font-family="'Courier New', Courier, monospace"
+        font-size="17"
+        font-weight="600"
+        fill="#FFD100"
+        opacity="0">
+    On the pitch and in the stack
+    <animate attributeName="opacity"
+      values="0;0;1;1;0;0"
+      keyTimes="0;0.40;0.42;0.58;0.60;1"
+      dur="25s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Line 4: 15-20s -->
+  <text x="348" y="30"
+        text-anchor="end"
+        font-family="'Courier New', Courier, monospace"
+        font-size="17"
+        font-weight="600"
+        fill="#FFD100"
+        opacity="0">
+    Automating the grind, one agent at a time
+    <animate attributeName="opacity"
+      values="0;0;1;1;0;0"
+      keyTimes="0;0.60;0.62;0.78;0.80;1"
+      dur="25s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Line 5: 20-25s -->
+  <text x="348" y="30"
+        text-anchor="end"
+        font-family="'Courier New', Courier, monospace"
+        font-size="17"
+        font-weight="600"
+        fill="#FFD100"
+        opacity="0">
+    Turning chaos into products
+    <animate attributeName="opacity"
+      values="0;0;1;1;0"
+      keyTimes="0;0.80;0.82;0.98;1"
+      dur="25s" repeatCount="indefinite"/>
+  </text>
+</svg>
