@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0a2a5e,80:2774AE,100:FFD100&height=220&section=header&text=Joshua%20Philip&fontSize=72&fontColor=ffffff&fontAlignY=42&fontStyle=bold&desc=UCLA%20CS%20%26%20Engineering%20%7C%20AI%20Founder%20%7C%20Footballer&descAlignY=62&descSize=18&descColor=FFD100&animation=fadeIn" width="100%"/>
+<img src="./header.svg" width="100%" alt="Joshua Philip"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1400&color=FFD100&center=true&vCenter=true&width=680&lines=Building+AI+that+actually+ships;CS+and+Engineering+at+UCLA;On+the+pitch+and+in+the+stack;Automating+the+grind%2C+one+agent+at+a+time;Turning+chaos+into+products" width="680" alt="typing"/>
+<img src="./typing.svg" width="700" height="46" alt="typing"/>
 
 <br/>
 
@@ -40,7 +40,7 @@ const joshua = {
 ---
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/JoshuaA1292/JoshuaA1292/main/soccer.svg" width="100%" alt="soccer ball rolling"/>
+<img src="./soccer.svg" width="100%" alt="soccer ball rolling"/>
 </div>
 
 ---
@@ -66,20 +66,6 @@ const joshua = {
 ![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
 &nbsp;
 ![Vapi](https://img.shields.io/badge/Vapi-111111?style=flat-square)
-
-</div>
-
----
-
-<div align="center">
-
-### github stats
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=JoshuaA1292&show_icons=true&hide_border=true&bg_color=0d1117&title_color=FFD100&icon_color=2774AE&text_color=8b949e&ring_color=2774AE&count_private=true" height="160"/>
-&nbsp;&nbsp;
-<img src="https://github-readme-streak-stats.herokuapp.com?user=JoshuaA1292&hide_border=true&background=0d1117&ring=2774AE&fire=FFD100&currStreakLabel=FFD100&sideLabels=8b949e&dates=8b949e" height="160"/>
 
 </div>
 
