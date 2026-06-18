@@ -1,113 +1,67 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,60:0a2a5e,100:2774AE&height=200&section=header&text=Joshua%20Philip&fontSize=70&fontColor=ffffff&fontAlignY=45&fontStyle=bold&desc=UCLA%20CS%20%26%20Engineering%20%7C%20AI%20Founder%20%7C%20Footballer&descAlignY=65&descSize=17&descColor=FFD100&animation=fadeIn" width="100%"/>
+<img src="./hero.svg" width="100%" alt="Joshua Philip — computer science and engineering at UCLA" />
 
-<br/>
+<br />
 
-<a href="https://readme-typing-svg.demolab.com"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1400&color=FFD100&center=true&vCenter=true&width=680&lines=Building+AI+that+actually+ships+%F0%9F%9A%80;CS+%26+Engineering+%40+UCLA+%F0%9F%90%BB;On+the+pitch+and+in+the+stack+%E2%9A%BD;Automating+the+grind%2C+one+agent+at+a+time;Turning+chaos+into+products+%F0%9F%94%A5" alt="Typing SVG"/></a>
-
-<br/><br/>
-
-<a href="https://www.linkedin.com/in/joshua-philip123/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white"/></a>
-&nbsp;
-<a href="mailto:joshuaphilip2140@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white"/></a>
-&nbsp;
-<img src="https://img.shields.io/badge/UCLA-2774AE?style=for-the-badge&amp;logoColor=white"/>
-&nbsp;
-<img src="https://komarev.com/ghpvc/?username=JoshuaA1292&amp;label=views&amp;color=2774AE&amp;style=for-the-badge"/>
+<a href="https://www.linkedin.com/in/joshua-philip123/">LinkedIn</a>
+&nbsp;&nbsp;/&nbsp;&nbsp;
+<a href="mailto:joshuaphilip2140@gmail.com">Email</a>
+&nbsp;&nbsp;/&nbsp;&nbsp;
+<a href="https://github.com/JoshuaA1292?tab=repositories">Repositories</a>
 
 </div>
 
-<br/>
+## Work
 
----
+I build software around applied AI, automation, and web systems. I care about the less visible parts of a product: reliable pipelines, clean interfaces, useful evaluation, and getting a prototype into production.
 
-<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="240"/>
-
-```typescript
-const joshua = {
-  school:    "CS & Engineering @ UCLA 🐻",
-  location:  "Los Angeles, CA",
-
-  building:  "AI that automates real business workflows",
-  stack:     ["Python", "TypeScript", "Next.js", "FastAPI"],
-
-  loves:     ["⚽ Soccer", "🤖 AI startups", "🚀 shipping things"],
-  motto:     "read the game fast, trust the team, execute",
-};
+```text
+FOCUS       AI systems · workflow automation · product engineering
+CURRENT     Computer Science & Engineering at UCLA
+BASED       Los Angeles, California
 ```
 
-<br clear="right"/>
+## Toolkit
 
----
+| Area | Technologies |
+|:--|:--|
+| **Languages** | Python, TypeScript, JavaScript, SQL, Bash |
+| **Application** | React, Next.js, FastAPI, Tailwind CSS |
+| **Data & infra** | PostgreSQL, Docker, Linux, GitHub Actions, Vercel |
+| **AI** | OpenAI, Anthropic, Gemini, retrieval, agents, evaluation |
 
-<div align="center">
+## How I Build
 
-<img src="./soccer.svg" width="100%" alt="soccer ball rolling"/>
+```mermaid
+flowchart LR
+    A[Problem] --> B[Prototype]
+    B --> C[Measure]
+    C --> D[Ship]
+    D --> E[Observe]
+    E -->|iterate| B
 
-</div>
-
----
-
-<div align="center">
-
-### tools i reach for
-
-<br/>
-
-<img src="https://skillicons.dev/icons?i=python,typescript,react,nextjs,fastapi,tailwind,postgres,docker&theme=dark&perline=8"/>
-
-<br/><br/>
-
-<img src="https://skillicons.dev/icons?i=git,github,vercel,vscode,figma,linux,bash&theme=dark&perline=8"/>
-
-<br/><br/>
-
-![Claude](https://img.shields.io/badge/Claude-D97706?style=flat-square&logo=anthropic&logoColor=white)
-&nbsp;
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-&nbsp;
-![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
-&nbsp;
-![Vapi](https://img.shields.io/badge/Vapi-111111?style=flat-square)
-
-</div>
-
----
-
-<div align="center">
-
-### github stats
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=JoshuaA1292&show_icons=true&hide_border=true&bg_color=0d1117&title_color=FFD100&icon_color=2774AE&text_color=8b949e&ring_color=2774AE&count_private=true" height="160"/>
-&nbsp;&nbsp;
-<img src="https://github-readme-streak-stats.herokuapp.com?user=JoshuaA1292&hide_border=true&background=0d1117&ring=2774AE&fire=FFD100&currStreakLabel=FFD100&sideLabels=8b949e&dates=8b949e" height="160"/>
-
-<br/><br/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=JoshuaA1292&theme=github_dark" width="100%"/>
-
-</div>
-
----
-
-<div align="center">
-
-```
-currently:  shipping AI outreach automation
-listening:  lo-fi + post-game analysis
-watching:   every UCL match I can find ⚽
-open to:    collabs on AI products that actually matter
+    classDef start fill:#2774AE,stroke:#5BA7E8,color:#fff
+    classDef work fill:#111827,stroke:#334155,color:#E5E7EB
+    classDef ship fill:#FFD100,stroke:#B89A00,color:#111827
+    class A start
+    class B,C,E work
+    class D ship
 ```
 
-</div>
+<details>
+<summary><strong>What I optimize for</strong></summary>
+<br />
+
+- Small, testable releases instead of oversized rewrites
+- Automation where it removes repetition, not where it hides decisions
+- Observable systems with explicit failure modes
+- Interfaces that make complex systems feel simple
+
+</details>
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2774AE,100:0d1117&height=110&section=footer&animation=fadeIn" width="100%"/>
-
 <div align="center">
-  <sub>joshuaphilip2140@gmail.com &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/joshua-philip123/">linkedin</a></sub>
+<sub>UCLA · Computer Science & Engineering · Los Angeles</sub>
 </div>
